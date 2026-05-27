@@ -1,0 +1,39 @@
+.custom-option-item {
+  position: relative;
+
+  background: #ffffff;
+  padding: 32px 40px 80px;
+  border: 1px solid #d9d9d9;
+}
+
+.option-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.option-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: #e45320;
+  color: white;
+
+  padding: 4px 24px 4px 4px;
+
+  border-bottom-right-radius: 6px;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.custom-select-wrapper .Polaris-Select__Backdrop {
+  border-radius: 4px !important;
+}
+
+.custom-quantity-input .Polaris-TextField__Backdrop {
+  border-radius: 4px !important;
+}

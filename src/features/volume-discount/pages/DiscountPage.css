@@ -1,0 +1,197 @@
+.option-section-header {
+  background: #ffffff;
+  border: 1px solid #e1e3e5;
+  border-bottom: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 0;
+}
+
+.discount-page {
+  --discount-page-bg: #f6f6f7;
+}
+
+.discount-page .Polaris-Page-Header__BreadcrumbWrapper .Polaris-Button {
+  padding: 8px;
+  min-height: unset;
+  min-width: unset;
+  border: 1px solid #e1e3e5;
+  border-radius: 6px;
+  background-color: var(--discount-page-bg);
+  box-shadow: none;
+
+  --pc-button-box-shadow: none;
+  --pc-button-box-shadow_active: none;
+}
+
+.discount-page .Polaris-Page-Header__BreadcrumbWrapper .Polaris-Button:hover {
+  background-color: #edeeef;
+  border-color: #c9cccf;
+}
+
+.discount-page-options-error {
+  padding: 8px 20px 0;
+}
+
+.discount-page-options-error .Polaris-InlineError {
+  margin: 0;
+}
+
+.discount-page .Polaris-Page-Header__BreadcrumbWrapper .Polaris-Icon {
+  width: 20px;
+  height: 20px;
+  color: #303030;
+}
+
+.discount-page .Polaris-Page-Header__BreadcrumbWrapper .Polaris-Button:hover .Polaris-Icon {
+  color: #e45320;
+}
+
+.discount-page .Polaris-Page-Header__BreadcrumbWrapper .Polaris-Icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.discount-page-spacing {
+  padding-bottom: 48px;
+}
+
+.preview-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.preview-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.preview-description .Polaris-Text--root {
+  font-weight: 600;
+}
+
+.preview-table {
+  padding: 12px 18px ;
+}
+
+.preview-table-header {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 0.75fr 0.75fr;
+  gap: 8px;
+  font-size: 13px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e1e3e5;
+  margin-bottom: 4px;
+}
+
+.preview-table-row {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 0.75fr 0.75fr;
+  gap: 8px;
+  font-size: 13px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f1f1;
+  align-items: center;
+}
+
+.preview-table-cell--title {
+  text-align: left;
+}
+
+.preview-table-cell--discount,
+.preview-table-cell--quantity,
+.preview-table-cell--amount {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.preview-table-cell-inner {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.preview-table-cell--discount .preview-table-cell-inner {
+  width: 6.5rem;
+}
+
+.preview-table-cell--quantity .preview-table-cell-inner {
+  width: 3.5rem;
+}
+
+.preview-table-cell--amount .preview-table-cell-inner {
+  width: 3.5rem;
+}
+
+.preview-table-header .preview-table-cell--discount .preview-table-cell-inner,
+.preview-table-header .preview-table-cell--quantity .preview-table-cell-inner,
+.preview-table-header .preview-table-cell--amount .preview-table-cell-inner {
+  text-align: center;
+  overflow: visible;
+  text-overflow: unset;
+  white-space: normal;
+}
+
+.preview-table-row .preview-table-cell--discount .preview-table-cell-inner,
+.preview-table-row .preview-table-cell--quantity .preview-table-cell-inner,
+.preview-table-row .preview-table-cell--amount .preview-table-cell-inner {
+  text-align: right;
+}
+
+.preview-table-cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.custom-add-button {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  padding: 16px 0;
+  border-radius: 0 0 8px 8px;
+}
+
+.custom-add-button .Polaris-Button {
+  border-radius: 4px;
+  background-color: #e45320;
+  min-width: 85%;
+  padding: 10px;
+
+  --pc-button-box-shadow: none;
+  --pc-button-box-shadow_active: none;
+}
+
+.custom-add-button .Polaris-Button:hover {
+  background-color: #d23b0f;
+}
+
+.custom-add-button .Polaris-Button__Content {
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.custom-add-button .Polaris-Button__Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.custom-add-button .Polaris-Button__Text {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}

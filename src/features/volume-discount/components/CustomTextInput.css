@@ -1,0 +1,14 @@
+.custom-text-input-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-text-input-wrapper .Polaris-TextField {
+  width: 100%;
+}
+
+.custom-text-input-wrapper .Polaris-TextField__Backdrop {
+  border-radius: 4px !important;
+  width: 100%;
+}
+
